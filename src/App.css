@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+ *{
+  font-family: "roboto", sans-serif;
+ }
+ body{
+  margin: 0;
+  padding: 0;
+  background-color:#2f3640;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
+ .container{
+  width: 350px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+ }
+ .input-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid blue;
+  border-radius: 10px;
+  overflow: hidden;
+
+ }
+ .cityinput {
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+ }
+ .search-icon{
+  padding: 10px;
+  height: 30px;
+  cursor: pointer;  
+ }
+.search-icon img{
+    object-fit: contain;
+    margin-top: 5px;
+}
+.image{
+    text-align: center;
+    height: 150px;
+    margin-bottom: 10px;
+
+}
+.image img{
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+
+}
+.temp,
+.location,
+.country {
+    margin-top: 5px;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.temp{
+    font-weight: 500;
+    padding-top: 20px;
+
+}
+.location{
+    color:blueviolet;
+    font-weight: 400;
+    font-size: 40px;
+
+}
+.country{
+    font-size: 18px;
+    color: #888;
+    font-weight: 500;
+}
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.cord div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.cord div span{
+    font-size: 15px;
+    
+}
+.humidity-prcentage,
+.wind-prcent,
+.cord div span :nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    padding-top: 5px
+
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.element{
+    text-align: center;
+}
+.icon{
+    height: 150px;
+    width: 150px;
+
+}
+.text{
+    font-size: 20px;
+    color:black;
+
+}
+.copyright{
+   
+ text-align: center;
+ font-size: 14px;
+ color: #666;
+
+}
+.copyright sapn{
+    color: black;
+}
+.city-not-found,
+.loading-message,
+.error-message{
+    margin: 12px;
+    color: #888;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+}
